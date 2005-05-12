@@ -1,0 +1,45 @@
+MK-02-01-23-24-20: AnswerTypes (Model&Panels) Kommentiert
+MK-02-01-22-22-05: UI der AnswerTypePanel angepasst, auf einige Kern AnswerType beschränkt
+SD-02-01-19-02-40: Buttons zeigen jetzt ihren Mnemonic key an; Info-Dialog überarbeitet; Action-Infrastruktur wird gerade komplett erneuert
+SD-02-01-14-20-15: ConfirmOnExit wieder entfernt -> s. Mail; StatusBar vorbereitet; DND angepasst
+MB-02-01-14-13-08: ConfirmOnExit für Questionaire hinzugefügt
+SD-02-01-14-04-00: Probleme mit dem AnswerType-D&D beseitigt; D&D-View-Verhalten angepasst; neue Funktionalität: Antworttypen lassen sich kollabieren
+SD-02-01-11-18-15: Umwandlung Object <-> XML ist fast fertig; es fehlen nur die konkreten AnswerTypes
+MK-02-01-11-16-30: Positionierung sollte nun tatsächlich funktionieren
+MK-02-01-10-22-48: Testfälle zerbrechen nicht mehr, aber AnswerType positionierung muss neu implementiert werden
+SD-02-01-10-15-30: AnswerTypeCollectionImplTest -> 2 Testfälle sind zerbrochen; bitte Implementation anpassen, dass vom Interface (s. Doku) vorgeschriebene Verhalten wird bereits verwendet!
+SD-02-01-10-13-15: Titelzeilen in Questionaire, RenameDialog, NewQuestionaireDialog; RenameDialog, NewQuestionaireDialog,RenameAction, NewQuestionaireAction angepasst
+MK-02-01-10-11-10: View des OpenQuantified AnswerTypes geupdated
+SD-02-01-10-02-15: Delegation innerhalb der IQuestion versteckt; DOM-Reader & -Writer
+MK-02-01-09-19-00: Vorschlag zur AnswerType-Färbung eingefügt (Pallete müßte angepasst werden)
+MK-02-01-09-19-00: AnswerType DND Problematik gelöst
+SD-02-01-08-20-55: Implementationen versteckt; ein paar andere kleinere Änderungen hier und da
+SD-02-01-08-20-55: Unnötige JARs gelöscht; Verzeichnis EXT in LIB umbenannt -> entspricht dann den allg. üblichen Konventionen; neues Projekt dom4j
+SD-02-01-07-20-15: Delegation innerhalb des IQuestionaire verborgen
+SD-02-01-07-19-30: package de.sep.model.questionaire: doku überarbeitet; IQuestionaire Interface geändert; Funktionalität aus QuestionaireFactory extrahiert; VersionierungUI angepasst; HTML-View-Bug beseitigt
+SD-02-01-07-03-00: package de.sep.model.question: doku überarbeitet; für alles testfälle; QuestionCollectionImpl reagiert nun auf externe Änderungen einer Question.Number
+SD-02-01-06-18-00: VersionierungsUI vorbereitet; QuestionDropPanels extrahiert
+MK-02-01-04-12-30: DND AnswerTypePanel vollständig verknüpft
+SD-02-01-03-13-15: Cursor verändert sich über DragJLabels und DragJButtons
+MK-02-01-03-10-00: DND der AnswerTypePanel mit dem Model teilweise verknüpft
+SD-02-01-03-06-00: Focus-Verhalten aller Dialoge angepasst; neuer AbandonChanges-Dialog (kein Model-Update); neue Menüeinträge (kein Model-Update)
+SD-02-01-02-23-15: Tastaturkürzeldialog fertig
+MK-02-01-02-14-30: Habe das DND Verhalten der AnswerTypePanel and das der QuestionPanel angeglichen; Verbindung Model<-->UI im Bezug auf die AnswerTypes funktionier NOCH nicht ist in arbeit.
+SD-02-01-02-13-15: Verhalten des Text-TF im QuestionPanel geändert -- bei leerer Eingabe wird der Text auf "" gesetzt, das Label zeigt aber "Hier klicken..." an; Tastaturkürzel-Menüpunkt; Tastaturkürzeldialog vorbereitet
+SD-02-01-01-21-15: Selection & Löschen vorbereitet
+SD-02-01-01-20-15: Das Verhalten der Pfeile der NumberSpinner umgekehrt; wenn Fokus auf TF durch Auf-/Abpfeil Fragenummer anpassen; beim Ändern der Fragenummer wird auf die neue Position gescrollt und der Fokus aufs TF gesetzt
+SD-02-01-01-14-30: LabelTextfieldPanel haben jetzt ein Popupmenü mit Cut/Copy/Paste/SelectAll
+SD-01-12-27-19-30: Info-Dialog angepasst; LabelTFPanel durch LabelTextfieldPanel ersetzt
+SD-01-12-12-08-45: Kopplung verringert & refaktorisiert
+SD-01-12-12-02-00: D&D für AnswerTypes implementiert; D&D der Questions angepasst; Menübar "Hover"; neues Menü "Fragen"; client.properties angepasst
+SD-01-12-10-12-00: Drag & Drop für Questions implementiert; Menüs angepasst; Save erstmal abgeschaltet
+SD-01-12-08-23-05: Kopplung weiter veringert; Event-handling strings verändert
+SD-01-12-08-20-15: Die Action-Infrastruktur geändet; Application Size wird auch mittels client.properties gesetzt
+SD-01-12-08-17-00: Die Fokussierung der Dialoge ist jetzt korrekt.
+SD-01-12-08-09-30: Kopplungen zwischen den Actions, Dialogen und "Questionaire" geschwächt; Dialoge überarbeitet; Event-Handling ist gerade in der Bearbeitung, deshalb funktioniert die automatische Sortierung nicht
+SD-01-12-06-08-00: IQuestionaire - "Author" Attribut; neuer Menüpunkt "Questionaire/Change Author"; "sdavids" muss aus dem Repository importiert werden!
+MB-01-11-18-15-12: jox115.jar, dtdparser115.jar hinzugefuegt
+SD-01-11-17-21-00: Info-Dialog überarbeitet; rudimentäres Speichern; !! neue JARS einbinden!
+SD-01-11-17-06-20: Viele Änderungen; alles in de.sep.model.*, de.sep.model.question.*, de.sep.ui.actions.*, de.sep.ui.dialog.* kommentiert
+MK-01-11-16: Habe die Möglichkeit, des einfügens an der Stelle wo etwas gedropt wird eingefügt.(zunächst nur AnswerTypePanel)
+SD-01-11-15-19-00: Beim Schließen verschwindet jetzt der Toolbar mit; der Scrollbalken erscheint jetzt; alle Klassen de.sep.model & de.sep.model.question kommentiert; eine Datei für die bekannten Bugs eingeführt

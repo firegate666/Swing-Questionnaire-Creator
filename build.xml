@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+
+<project name="Questionaire" default="javadocs" basedir=".">
+
+	<path id="src">
+		<pathelement path="./src"/>
+	</path>
+	
+  <property name="appname" value="Questionaire"/>
+  <property name="docdir" value="../docs/api"/>
+    
+ <target name="javadocs">
+    <delete dir="${docdir}"/>
+    <mkdir dir="${docdir}"/>
+	<javadoc packagenames="de.*"
+	           sourcepath="$src"
+	           defaultexcludes="yes"
+	           destdir="../docs/api"
+	           author="true"
+	           version="true"
+	           private="true"           
+	           use="true"
+	           windowtitle="Questionaire">
+	 </javadoc>
+  </target>  
+ </project>

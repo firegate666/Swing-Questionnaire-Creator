@@ -1,0 +1,66 @@
+(032-SD) OPENED SD-02-01-18-20-00: Info-Dialog -- beim Drücken der "Lizenz"-Buttons sollte die TA an den Anfang gescrollt werden.
+(029-MB) OPENED MB-02-01-14-12-37: Antworttype offene quantitavie Antwort: nicht genügend Platz zwischen Label und Textfeld, zu gedrängt
+
+(016-MB) RESOLVED-FIXED SD-02-01-14-20-15: Scheint, als ob NT D&D anders verarbeitet; bitte nochmals testen. @@ VERIFIED MB-02-01-14-12-24 Sitze hier an der FH unter NT und kann kein DND mehr machen, habe unter Linux getestet: geht @@ UNCONFIRMED SD-01-12-13-00-45: Bei mir funktionierts ;-) Hab Win98SE. @@ OPENED MB-01-12-10-23-06: Drag & Drop funktioniert unter Windows nicht.
+
+(027-MB) RESOLVED-BY DESIGN SD-02-01-11-13-50: ein LabelTextField soll diese Verhalten nicht haben; durch die neue Anordnung sollte dieser "Bug" auch nicht mehr auftreten. @@ MB-02-01-10-17-35: LTF passt seine Größe beim Eintragen nicht selbstständig an
+
+(030-MB) RESOLVED-WON'T FIX SD-02-01-14-20-15: Das ist ein Standardverhalten des zugrundeliegenden Windowsystems. Das lässt sich auch nicht ändern! MacOS und Windows gehen auch unterschiedlich mit den Menüs um; Windows: Click aufs Menu -> Menü bleibt angezeigt, bis man einen Punkt auswählt oder außerhalb des Menüs klickt; MacOS: Menü bleibt so lange geöffnet wie man die Maustaste gedrückt hält. @@OPENED MB-02-01-14-12-37: Menübedienung unter Gnome unkomfotabel. Ein Klick auf das Menüoberthema öffnet das Menü und wählt automatisch den ersten Punkt aus. Nur das gedrückthalten der Maustaste erlaubt Navigation im Menü
+
+(010-SD) RESOLVED-LATER SD-02-01-01-20-15: Durch das neue Verhalten der LabelTextfieldPanels ist es im Zusammenhang der Questions nicht relevant; könnte aber die AnswerTypes betreffen. @@ OPENED SD-01-12-08-17-30: Beim Schließen eines Fragebogens (u. d. Anwendung) sollten alle noch nicht validierten Editoren validiert werden.
+
+(033-SD) CLOSED SD-02-01-19-04-00 @@ RESOLVED-FIXED SD-02-01-19-03-50 @@ OPENED SD-02-01-18-20-00: Diabled Buttons deutlicher hervorheben; durch Einsatz von HTML wird der Text nicht mehr grau dargestellt.
+(034-SD) CLOSED SD-02-01-19-02-00 @@ RESOLVED-FIXED SD-02-01-19-01-45 @@ OPENED SD-02-01-19-01-30: Wenn im ChangeAuthorDialog beide TFs leer sind ist der OK-Button aktiviert.
+(031-SD) CLOSED SD-02-01-18-20-00 @@ RESOLVED-FIXED SD-02-01-18-16-00 @@ OPENED SD-02-01-18-15-30: Nach dem Drop auf einem QuestionEndDropPanel wird der Background des QuestionairePanel nicht zurückgesetzt.
+(030-SD) CLOSED SD-02-01-19-04-00 @@ RESOLVED-FIXED MB-02-01-16-16-00 @@ OPENED SD-02-01-14-20-15: "Order" anlegen -> wenn man auf den HTML-Button klickt wird jetzt überhaupt nichts.
+(028-SD) CLOSED SD-02-01-19-04-00 @@ RESOLVED-FIXED MB-02-01-16-16-00 @@ OPENED SD-02-01-14-20-15: wenn man auf den HTML-Button klickt wird jetzt überhaupt nichts. @@ RESOLVED-FIXED MB-02-01-14-12-24 @@ OPENED SD-02-01-11-13-50: java.lang.ArithmeticException: / by zero	at prototype.web.html.AnswerTypeHTMLFactory.createCompletionLimited(AnswerTypeHTMLFactory.java:111) -> neue Frage anlegen eine CompletionLimited draufziehen und dann HTML-Ansicht
+(026-MK) CLOSED MK-02-01-09-19-00 @@ RESOLVED-FIXED MK-02-01-06-10-00 @@ OPENED MK-02-01-04-13-05: Array out of bounds bei droppen von AnswerTypes
+(025-SD) CLOSED SD-02-01-19-04-00 @@ RESOLVED-FIXED SD-02-01-19-03-30 @@ OPENED SD-02-01-03: Klick in ein LTF, CTRL+R; klick in ein anderes -> Highlight verschwindet im alten LTF nicht
+(024-MB) CLOSED MB-02-01-10-17-05 @@ RESOLVED-FIXED MB-01-12-14-01-50 @@ OPENED MB-01-12-13-18-10 Einige Tags werden ohne spitze Klammern erzeugt. Bsp. LI
+(023-SD) CLOSED SD-01-12-13-09-00 @@ RESOLVED-FIXED SD-01-12-13-01-25 @@ OPENED SD-01-12-13-01-15: NumberSpinner: ungültige Zahl eingeben -> anderes NumberTF anklicken "gelbe" Farbe verschwindet nicht
+(022-SD) CLOSED SD-01-12-13-09-00 @@ RESOLVED-FIXED SD-01-12-13-01-20 @@ OPENED SD-01-12-13-00-45: AutoReorderAction Mnm zuweisen
+(021-SD) CLOSED SD-01-12-13-09-00 @@ RESOLVED-FIXED SD-01-12-13-01-30 @@ OPENED SD-01-12-13-00-45: Anwendung an den Bildschirmrand schieben -> InfoDialog GPL -> Dialog außerhalb screen bounds
+(020-SD) CLOSED SD-01-12-13-09-00 @@ RESOLVED-FIXED SD-01-12-13-01-50 @@ OPENED SD-01-12-13-00-45: Neue Frage über menu (auto Sort an) -> nicht einsortiert
+(019-SD) CLOSED SD-01-12-13-09-00 @@ RESOLVED-FIXED SD-01-12-13-01-50 @@ OPENED SD-01-12-13-00-45: Frage wird nicht richtig angefügt (erst ein paar anlegen, dann einen vorne, dann einen hinten -> neuer wird vorne eingefügt)
+(018-SD) CLOSED SD-01-12-13-01-35 @@ RESOLVED-FIXED SD-01-12-13-01-30 @@ OPENED SD-01-12-13-00-45: keine visuelle Anzeige bei Drop auf leeren QuestionPanel
+(017-MB) CLOSED MB-02-01-10-17-05 @@ RESOLVED-WON'T FIX SD-01-12-27-18-00: Konnte es unter KDE oder Win 98 nicht verifizieren; liegt wohl an GNOME, scheinbar ein "Feature" ;-) @@ OPENED MB-01-12-12-12-28: Vielleicht liegt es nur an Gnome, aber wenn ich auf ein Menue klicke und die Maustaste gleich wieder los lasse, dann wird automatisch der erste Men|punkt ausgefuehrt, da dieser nicht unterhalb des Menues, sondern auf dem Menue angezeigt wird.
+(015-MB) CLOSED MB-01-12-13-18-00 @@ RESOLVED-FIXED SD-01-12-12-02-00 @@ OPENED MB-01-12-10-18-49: Man kann inaktive Antworttypicons droppen.
+(014-MB) CLOSED MB-01-12-13-18-00 @@ RESOLVED-FIXED SD-01-12-12-02-00 @@ OPENED MB-01-12-10-18-49: Droppt man einen Antworttyp auf den Questionaire entsteht eine neue Frage.
+(013-SD) CLOSED SD-02-01-01-20-30 @@ RESOLVED-FIXED SD-02-01-01-20-15 @@ OPENED SD-01-12-10-12-00: Wenn man im QuestionPnl den Wert mittels der Up/Down-Pfeile ändert muss neben Bug 012 noch das QuestionPnl visuell hervorgehoben werden, damit man weiß "wo man jetzt ist"
+(012-SD) CLOSED SD-02-01-01-20-30 @@ RESOLVED-FIXED SD-02-01-01-20-15 @@ OPENED SD-01-12-10-12-00: Wenn man im QuestionPnl den Wert des Number TF verändert, muss auf die neue Stelle gescrollt werden.
+(011-SD) CLOSED SD-01-12-27-19-30 @@ RESOLVED-FIXED SD-01-12-27-19-00 @@ OPENED SD-01-12-08-17-40: Wenn eine neue Frage dem Fragebogen zugefügt wird, muss automatisch das Titel TF mit Focus angezeigt werden.
+(009-MB) CLOSED MB-02-01-10-17-05 @@ RESOLVED-FIXED SD-01-12-27-18-00 @@ OPENED SD-01-12-27-16-00 @@ RESOLVED-LATER SD-01-12-12: Welches "Verhalten" denn genau? Hat sie den Eindruck, dass Sachen verloren gehen? -- Die Felder *sollen* im Normalfall vom Benutzer geschlossen werden -> dadurch wirkt eine Frage IMO aufgeräumter. Beim layouten der AnswerType Panels sollen wir diesen Bug neu bewerten. @@ REOPENED MB-01-12-10-18-27: Der "Kunde" empfindet dieses Verhalten als stoerend. Vielleicht kann man Copy/Paste anders loesen. Oder anders gesagt, wenn diese Felder so wieso nicht mehr geschlossen werden, wofuer ueberhaupt dieses Feld? @@ RESOLVED-BY DESIGN SD-01-12-08-17-30: Das Verhalten ist so beabsichtigt, der User kann so einen Fragetext von einer Frage eine andere Übertragen -> könnte er nicht, wenn das TF automatisch bei FocusLost geschlossen wird; neuer Bug 010 @@ OPENED MB-01-12-08-14-27: Nach verlassen des LabelTF schliesst es sich nicht.
+(008-MB) CLOSED MB-01-12-13-18-00 @@ RESOLVED-FIXED SD-01-12-08-17-40 @@ OPENED MB-01-12-08-14-27: Beim ersten Anklicken eines LabelTF oeffnet es sich nur, zeigt aber keinen Cursor.
+(007-MB) CLOSED MB-01-12-13-18-00 @@ RESOLVED-FIXED MB-01-12-08-14-27 @@ OPENED MB-01-12-06-15-00: Bei automatischer Sortierung hinzufuegen von 7 Fragen. 7. Frage auf Nummer 8 setzen und neue Frage 2 mal per Menue hinzufuegen. Die Frage wird geloescht.
+(006-MB) CLOSED MB-01-12-13-18-00 @@ RESOLVED-WON'T FIX MB-01-12-13-18-00 @@ UNCONFIRMED SD-01-12-12-02-00: Bitte mit den neuen Algorithmen testen @@ VERIFIED MB-01-12-10-18-48: Bug bleibt, ist aber nicht unser Fehler! Liegt an was anderem. Im JBuilder 5 oder Eclipse tritt dieser Fehler nicht auf. @@ UNCONFIRMED SD-01-12-10-12-00: bitte mal mit den neuen Algorithmen testen @@ OPENED MB-01-12-06-13-35: Manchmal beim Hinzufügen von neuen Fragen per DND hängt sich die gesamte Oberfläche auf (Xlib: unexpected async reply (sequence 0x5 0b))
+(005-SD) CLOSED SD-01-11-20-21-00 @@ FIXED SD-01-11-20-21-00 @@ OPENED SD 19-15-45: Rename/New: Auch Space innerhalb Namens erlauben
+(004-MB) CLOSED MB-01-12-13-18-00 @@ RESOLVED-WON'T FIX SD-01-11-20-21-00: jox115.jar muss in den CLASSPATH @@ OPENED MB: Beim Starten des Programmes: "Questionaire.java": cannot access class com.wutka.jox.JOXBeanOutputStream
+(003-MB) CLOSED MB-01-12-13-18-00 @@ RESOLVED-WON'T FIX SD-01-11-20-21-00: unnötig; wurde durch sun.awt.VerticalBagLayout ersetzt @@ OPENED MB: Außerdem: Wo ist das VerticalFlowLayout?
+(002-MB) CLOSED MB-01-12-13-18-00 @@ RESOLVED-WON'T FIX SD-01-11-20-21-00: "file_save_path" in client-properties muss auf ein schreibbares Verzeichnis verweisen @@ MB: Beim Ausführen des Programmes schreibt er "Kann nicht speichern" oder s.ä. in die Konsole
+(001-SD) CLOSED SD-01-12-08-09-30 @@ FIXED SD-01-12-08-04-30 @@ OPENED SD-01-11-17-20-50: Der Infodialog wird nicht zentriert angezeigt, nachdem man den GPL-button drückt
+
+@@
+
+Nur der Bug-Owner darf einem Bug den CLOSED-Status geben!
+
+Man kann seine eigenen Bugs nachdem sie RESOLVED sind auf CLOSED setzen!
+
+Format: ({Bug Number}-{Bug Owner}) {STATUS}
+
+Folgende Stati:
+
+OPENED
+
+UNCONFIRMED
+VERIFIED
+
+ASSIGNED
+
+RESOLVED-WON'T FIX
+RESOLVED-LATER
+RESOLVED-FIXED
+RESOLVED-BY DESIGN
+
+REOPENED
+
+CLOSED
