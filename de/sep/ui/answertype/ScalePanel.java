@@ -15,21 +15,10 @@ package de.sep.ui.answertype;
  * ===========================================================================
  */
 
-import java.awt.Dimension;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-
-import javax.swing.JButton;
-import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JRadioButton;
-import javax.swing.JScrollPane;
-import sun.awt.VerticalBagLayout;
 
 import de.sdavids.swing.controls.LabelTextFieldPanel;
-import de.sep.model.answertype.AnswerTypeFactory;
-import de.sep.model.answertype.IAnswerType;
-import de.sep.ui.Questionaire;
 
 public class ScalePanel extends JPanel {
 

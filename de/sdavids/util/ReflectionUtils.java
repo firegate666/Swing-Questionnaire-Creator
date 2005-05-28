@@ -8,8 +8,6 @@ package de.sdavids.util;
 
 import java.lang.reflect.InvocationTargetException;
 
-import de.sdavids.interfaces.IApplication;
-
 /**
  * @author	Sebastian Davids
  * @version	1.00	02--

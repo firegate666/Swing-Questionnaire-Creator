@@ -15,14 +15,11 @@ package de.sep.model.questionaire;
  * ===========================================================================
  */
 
-import java.util.NoSuchElementException;
-
 import de.sdavids.beans.IBoundBean;
 import de.sdavids.interfaces.IAuthored;
 import de.sdavids.interfaces.INullable;
 import de.sdavids.interfaces.ITitled;
 import de.sep.model.question.IQuestion;
-import de.sep.model.question.IQuestionCollection;
 import de.sep.model.question.IQuestionIterator;
 
 /**

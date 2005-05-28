@@ -18,12 +18,6 @@ package de.sep.dnd;
 import java.awt.Color;
 import java.awt.Component;
 
-import de.sep.dnd.*;
-
-import javax.swing.UIManager;
-
-import de.sep.ui.question.*;
-
 /**
  * The <code>QuestionEndDropPanel</code> is similar to a
  * <code>QuestionDropPanel</code> but appends questions to the end of the

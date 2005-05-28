@@ -17,7 +17,6 @@ package de.sep.ui.answertype;
 
 import java.awt.Color;
 import java.awt.Component;
-import java.awt.event.ActionEvent;
 import java.awt.event.ContainerEvent;
 import java.awt.event.ContainerListener;
 import java.beans.PropertyChangeEvent;
@@ -30,7 +29,6 @@ import java.util.List;
 import javax.swing.JPanel;
 
 import sun.awt.VerticalBagLayout;
-
 import de.sep.dnd.AnswerTypeDropPanel;
 import de.sep.dnd.AnswerTypeEndDropPanel;
 import de.sep.model.answertype.IAnswerType;

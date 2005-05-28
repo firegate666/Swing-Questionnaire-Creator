@@ -19,8 +19,6 @@ import javax.swing.JToolBar;
 
 import de.sdavids.dnd.JDragButton;
 import de.sdavids.dnd.JDragLabel;
-import de.sdavids.swing.SwingCreator;
-import de.sdavids.swing.actions.ActionImpl;
 import de.sep.dnd.DraggableAnswerType;
 import de.sep.dnd.DraggableQuestion;
 import de.sep.model.answertype.AnswerType;

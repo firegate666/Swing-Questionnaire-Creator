@@ -23,7 +23,6 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 
 import javax.swing.JFileChooser;
-import javax.swing.filechooser.FileFilter;
 
 import de.sep.model.questionaire.IQuestionaire;
 import de.sep.ui.Questionaire;

@@ -1,7 +1,6 @@
 package de.sdavids.util;
 
 import java.awt.event.KeyEvent;
-import java.util.Collection;
 
 import javax.swing.KeyStroke;
 

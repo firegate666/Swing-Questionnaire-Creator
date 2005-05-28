@@ -15,7 +15,9 @@ package de.sep.ui.actions;
  * ===========================================================================
  */
 
-import java.awt.event.ActionEvent;import de.sep.model.questionaire.IQuestionaire;import de.sep.ui.Questionaire;import de.sep.ui.dialog.ExitProgramDialog;
+import java.awt.event.ActionEvent;
+
+import de.sep.ui.Questionaire;
 
 /**
  * A <code>ExitAction<code> is invoked if the user wants to close the

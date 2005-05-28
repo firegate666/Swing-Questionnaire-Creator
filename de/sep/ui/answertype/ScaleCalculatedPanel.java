@@ -23,7 +23,6 @@ import java.util.ResourceBundle;
 
 import javax.swing.JLabel;
 import javax.swing.JPanel;
-import sun.awt.VerticalBagLayout;
 
 import de.sdavids.swing.SwingCreator;
 import de.sdavids.swing.controls.LabelTextFieldPanel;

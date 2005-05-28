@@ -16,10 +16,7 @@ package de.sep.ui.answertype;
  */
 
 import java.awt.BorderLayout;
-import java.awt.Dimension;
 import java.awt.GridLayout;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 import javax.swing.JButton;
 import javax.swing.JLabel;
@@ -27,8 +24,6 @@ import javax.swing.JPanel;
 import javax.swing.JRadioButton;
 
 import de.sdavids.swing.controls.LabelTextFieldPanel;
-import de.sep.model.answertype.IAnswerType;
-import de.sep.ui.Questionaire;
 
 public class MatchPanel extends JPanel {
 

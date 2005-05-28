@@ -16,7 +16,6 @@ package de.sep.model.questionaire;
  */
 
 import de.sdavids.util.StringUtils;
-import de.sep.model.question.QuestionFactory;
 
 /**
  * Factory for <code>IQuestionaire</code>s.

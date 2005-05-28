@@ -3,13 +3,11 @@ package de.sdavids.swing.dialog;
 import java.awt.Component;
 import java.awt.Dialog;
 import java.awt.Frame;
-import java.awt.event.KeyAdapter;
-import java.awt.event.KeyEvent;
 
 import javax.swing.JDialog;
 
-import de.sdavids.swing.SwingUtils;
 import de.sdavids.swing.InfoTipWindow;
+import de.sdavids.swing.SwingUtils;
 
 public class InfoTipDialog extends JDialog {
 

@@ -18,7 +18,6 @@ package de.sep.model.question;
 import de.sdavids.beans.IBoundBean;
 import de.sdavids.interfaces.INullable;
 import de.sep.model.answertype.IAnswerType;
-import de.sep.model.answertype.IAnswerTypeCollection;
 import de.sep.model.answertype.IAnswerTypeIterator;
 
 /**

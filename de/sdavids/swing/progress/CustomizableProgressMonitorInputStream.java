@@ -1,11 +1,13 @@
 package de.sdavids.swing.progress;
-import java.io.*;
 import java.awt.Component;
+import java.io.FilterInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InterruptedIOException;
 
 import javax.swing.Icon;
 import javax.swing.JOptionPane;
-
-import de.sdavids.swing.*;
+import javax.swing.ProgressMonitor;
 
 /** 
  * Monitors the progress of reading from some InputStream. This ProgressMonitor

@@ -17,11 +17,6 @@ package de.sep.ui.answertype;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
-import java.awt.dnd.DnDConstants;
-import java.awt.dnd.DropTarget;
-import java.awt.dnd.DropTargetDragEvent;
-import java.awt.dnd.DropTargetDropEvent;
-import java.awt.dnd.DropTargetEvent;
 import java.awt.event.ContainerEvent;
 import java.util.ResourceBundle;
 
@@ -30,8 +25,6 @@ import javax.swing.JPanel;
 import javax.swing.border.LineBorder;
 
 import sun.awt.VerticalBagLayout;
-
-import de.sdavids.dnd.DropTargetAdapter;
 import de.sep.model.answertype.AnswerType;
 import de.sep.model.answertype.IAnswerType;
 import de.sep.model.answertype.IllegalAnswerTypeException;

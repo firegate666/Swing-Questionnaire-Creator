@@ -20,9 +20,6 @@ import java.awt.datatransfer.Transferable;
 import java.awt.datatransfer.UnsupportedFlavorException;
 import java.io.IOException;
 
-import de.sep.dnd.*;
-import de.sep.ui.question.*;
-
 public class QuestionTranferable implements Transferable {
 	public static final DataFlavor QUESTION_FLAVOR =
 		new DataFlavor(String.class, "Question");

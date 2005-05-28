@@ -16,9 +16,7 @@ package de.sep.model.question;
  */
 
 import de.sdavids.exceptions.SingletonException;
-import de.sep.model.answertype.AnswerTypeFactory;
 import de.sep.model.answertype.IAnswerType;
-import de.sep.model.answertype.IAnswerTypeCollection;
 
 /**
  * <code>Question</code> <em>Null-object</em>.

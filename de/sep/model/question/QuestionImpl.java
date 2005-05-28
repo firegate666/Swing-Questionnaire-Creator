@@ -18,8 +18,6 @@ package de.sep.model.question;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 
-import java.util.ResourceBundle;
-
 import de.sdavids.beans.BoundBean;
 import de.sep.model.answertype.AnswerTypeFactory;
 import de.sep.model.answertype.IAnswerType;

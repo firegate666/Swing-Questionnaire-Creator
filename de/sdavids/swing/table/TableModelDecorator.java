@@ -1,8 +1,8 @@
 package de.sdavids.swing.table;
 
-import javax.swing.*;
-import javax.swing.event.*;
-import javax.swing.table.*;
+import javax.swing.event.TableModelListener;
+import javax.swing.table.AbstractTableModel;
+import javax.swing.table.TableModel;
 
 public class TableModelDecorator extends AbstractTableModel { //implements TableModel {
 	protected TableModel model_;

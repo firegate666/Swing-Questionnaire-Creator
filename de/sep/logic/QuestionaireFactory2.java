@@ -15,14 +15,14 @@ package de.sep.logic;
  * ===========================================================================
  */
 
-import de.sdavids.util.StringUtils;
 import de.sep.model.answertype.AnswerType;
 import de.sep.model.answertype.AnswerTypeFactory;
 import de.sep.model.answertype.IAnswerType;
 import de.sep.model.question.IQuestion;
 import de.sep.model.question.IQuestionIterator;
 import de.sep.model.question.QuestionFactory;
-import de.sep.model.questionaire.*;
+import de.sep.model.questionaire.IQuestionaire;
+import de.sep.model.questionaire.QuestionaireFactory;
 
 /**
  * Factory for all model classes.

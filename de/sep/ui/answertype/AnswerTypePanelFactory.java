@@ -15,13 +15,6 @@ package de.sep.ui.answertype;
  * Copyright (c)2001 Behnke, Davids & Koose. Alle Rechte vorbehalten.
  * ===========================================================================
  */
-import java.awt.BorderLayout;
-import java.awt.Color;
-
-import javax.swing.BorderFactory;
-
-import javax.swing.JLabel;
-
 import de.sep.model.answertype.AnswerType;
 import de.sep.model.answertype.IAnswerType;
 import de.sep.model.answertype.IllegalAnswerTypeException;

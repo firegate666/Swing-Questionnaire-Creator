@@ -1,11 +1,8 @@
 package de.sep.test.model;
 
-import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
 import java.util.NoSuchElementException;
 
 import junit.framework.TestCase;
-
 import de.sep.model.answertype.AnswerType;
 import de.sep.model.answertype.AnswerTypeFactory;
 import de.sep.model.answertype.IAnswerType;
