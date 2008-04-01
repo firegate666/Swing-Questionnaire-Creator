@@ -22,11 +22,11 @@ public final class HTMLConstants {
     public final static String CHAR_GREATER_THAN = "&gt;";
     public final static String CHAR_LESS_THAN = "&lt;";
     public final static String CHAR_QUOTATION = "&quot;";
-    public final static String CHAR_Ä = "&Äuml;";
-    public final static String CHAR_Ö = "&Ouml;";
-    public final static String CHAR_Ü = "&Uuml;";
-    public final static String CHAR_ß = "&szlig;";
-    public final static String CHAR_ä = "&äuml;";
-    public final static String CHAR_ö = "&ouml;";
-    public final static String CHAR_ü = "&uuml;";
+    public final static String CHAR_AUML = "&Auml;";
+    public final static String CHAR_OUML= "&Ouml;";
+    public final static String CHAR_UUML= "&Uuml;";
+    public final static String CHAR_SZLIG = "&szlig;";
+    public final static String CHAR_aUML = "&auml;";
+    public final static String CHAR_oUML = "&ouml;";
+    public final static String CHAR_uUML = "&uuml;";
 }

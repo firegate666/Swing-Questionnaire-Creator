@@ -1,0 +1,39 @@
+<project name="sep" default="" basedir=".">
+    <description>
+		Ant tasks for this project
+    </description>
+
+	<target name="init">
+		<copy todir="C:\temp\sep" overwrite="yes">
+    		<fileset dir="./lib"/>
+		</copy>
+	</target>
+
+	<target name="deploy">
+		<ftp server="firegate.de" userid="web1" password="66igamsm" remotedir="public_html/sep">
+			<fileset dir="C:\temp\sep">
+      			<include name="*"/>
+    		</fileset>
+		</ftp>
+	</target>
+
+	<target name="signall">
+		<signjar alias="sep_mbehnke" storepass="passwort" keystore="./keystore">
+			<fileset dir="C:\temp\sep">
+			    <include name="*.jar"/>
+			</fileset>
+		</signjar>
+	</target>
+
+	<target name="genkey">
+		<genkey alias="sep_mbehnke" storepass="passwort" keystore="./keystore" dname="CN=Marco Behnke, OU=Softwaretechnik, O=behnke.biz, C=DE"/>
+	</target>
+
+	<target name="client">
+		<jar 	destfile="C:\temp\sep\sep.jar"
+				baseDir="./"
+				manifest="./manifest.mf"
+				excludes="lib/**"/>
+	</target>
+
+</project>

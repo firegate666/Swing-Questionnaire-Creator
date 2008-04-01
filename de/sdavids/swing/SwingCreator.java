@@ -4,6 +4,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.KeyListener;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
+import java.net.URL;
 import java.util.MissingResourceException;
 import java.util.ResourceBundle;
 
@@ -20,13 +21,12 @@ import javax.swing.JToggleButton;
 import javax.swing.KeyStroke;
 
 import de.sdavids.swing.actions.ActionImpl;
-import de.sdavids.swing.controls.*;
 import de.sdavids.swing.controls.JBinaryTextButton;
 import de.sdavids.swing.controls.JReturnButton;
 import de.sdavids.swing.controls.JReturnToggleButton;
 import de.sdavids.swing.controls.JTextFieldWithPopUp;
 import de.sdavids.swing.controls.NumberSpinner;
-import de.sdavids.swing.progress.*;
+import de.sdavids.swing.progress.ProgressIndicator;
 import de.sdavids.util.StringUtils;
 
 public class SwingCreator {
@@ -55,7 +55,8 @@ public class SwingCreator {
 		} catch (MissingResourceException e) {}
 
 		try {
-			return new ImageIcon(iconPath + bundle.getString((name + ".icon")));
+			URL url = SwingCreator.class.getResource(iconPath + bundle.getString((name + ".icon")));
+			return new ImageIcon(url);
 			//non-I18N-NLS
 		} catch (MissingResourceException e) {}
 
